@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Hello"; ObjectID = "46p-6R-fMW"; */
+"46p-6R-fMW.text" = "Hello";
+
+/* Class = "UIButton"; configuration.title = "English"; ObjectID = "Jya-bG-7zd"; */
+"Jya-bG-7zd.configuration.title" = "English";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Jya-bG-7zd"; */
+"Jya-bG-7zd.normalTitle" = "Button";
