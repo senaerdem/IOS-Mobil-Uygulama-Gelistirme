@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D0077C429ACC59D002A3BB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0077C329ACC59D002A3BB4 /* AppDelegate.swift */; };
+		5D0077C629ACC59D002A3BB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0077C529ACC59D002A3BB4 /* SceneDelegate.swift */; };
+		5D0077C829ACC59D002A3BB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0077C729ACC59D002A3BB4 /* ViewController.swift */; };
+		5D0077CB29ACC59D002A3BB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D0077C929ACC59D002A3BB4 /* Main.storyboard */; };
+		5D0077CD29ACC59D002A3BB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D0077CC29ACC59D002A3BB4 /* Assets.xcassets */; };
+		5D0077D029ACC59D002A3BB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D0077CE29ACC59D002A3BB4 /* LaunchScreen.storyboard */; };
+		5D0077DB29ACC59D002A3BB4 /* Cok_Bolumlu_TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0077DA29ACC59D002A3BB4 /* Cok_Bolumlu_TableViewTests.swift */; };
+		5D0077E529ACC59D002A3BB4 /* Cok_Bolumlu_TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0077E429ACC59D002A3BB4 /* Cok_Bolumlu_TableViewUITests.swift */; };
+		5D0077E729ACC59D002A3BB4 /* Cok_Bolumlu_TableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0077E629ACC59D002A3BB4 /* Cok_Bolumlu_TableViewUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D0077D729ACC59D002A3BB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D0077B829ACC59D002A3BB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D0077BF29ACC59D002A3BB4;
+			remoteInfo = "Cok Bolumlu TableView";
+		};
+		5D0077E129ACC59D002A3BB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D0077B829ACC59D002A3BB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D0077BF29ACC59D002A3BB4;
+			remoteInfo = "Cok Bolumlu TableView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D0077C029ACC59D002A3BB4 /* Cok Bolumlu TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cok Bolumlu TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0077C329ACC59D002A3BB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D0077C529ACC59D002A3BB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5D0077C729ACC59D002A3BB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D0077CA29ACC59D002A3BB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D0077CC29ACC59D002A3BB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D0077CF29ACC59D002A3BB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D0077D129ACC59D002A3BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D0077D629ACC59D002A3BB4 /* Cok Bolumlu TableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cok Bolumlu TableViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0077DA29ACC59D002A3BB4 /* Cok_Bolumlu_TableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cok_Bolumlu_TableViewTests.swift; sourceTree = "<group>"; };
+		5D0077E029ACC59D002A3BB4 /* Cok Bolumlu TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cok Bolumlu TableViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0077E429ACC59D002A3BB4 /* Cok_Bolumlu_TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cok_Bolumlu_TableViewUITests.swift; sourceTree = "<group>"; };
+		5D0077E629ACC59D002A3BB4 /* Cok_Bolumlu_TableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cok_Bolumlu_TableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D0077BD29ACC59D002A3BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0077D329ACC59D002A3BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0077DD29ACC59D002A3BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D0077B729ACC59D002A3BB4 = {
+			isa = PBXGroup;
+			children = (
+				5D0077C229ACC59D002A3BB4 /* Cok Bolumlu TableView */,
+				5D0077D929ACC59D002A3BB4 /* Cok Bolumlu TableViewTests */,
+				5D0077E329ACC59D002A3BB4 /* Cok Bolumlu TableViewUITests */,
+				5D0077C129ACC59D002A3BB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D0077C129ACC59D002A3BB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D0077C029ACC59D002A3BB4 /* Cok Bolumlu TableView.app */,
+				5D0077D629ACC59D002A3BB4 /* Cok Bolumlu TableViewTests.xctest */,
+				5D0077E029ACC59D002A3BB4 /* Cok Bolumlu TableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D0077C229ACC59D002A3BB4 /* Cok Bolumlu TableView */ = {
+			isa = PBXGroup;
+			children = (
+				5D0077C329ACC59D002A3BB4 /* AppDelegate.swift */,
+				5D0077C529ACC59D002A3BB4 /* SceneDelegate.swift */,
+				5D0077C729ACC59D002A3BB4 /* ViewController.swift */,
+				5D0077C929ACC59D002A3BB4 /* Main.storyboard */,
+				5D0077CC29ACC59D002A3BB4 /* Assets.xcassets */,
+				5D0077CE29ACC59D002A3BB4 /* LaunchScreen.storyboard */,
+				5D0077D129ACC59D002A3BB4 /* Info.plist */,
+			);
+			path = "Cok Bolumlu TableView";
+			sourceTree = "<group>";
+		};
+		5D0077D929ACC59D002A3BB4 /* Cok Bolumlu TableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D0077DA29ACC59D002A3BB4 /* Cok_Bolumlu_TableViewTests.swift */,
+			);
+			path = "Cok Bolumlu TableViewTests";
+			sourceTree = "<group>";
+		};
+		5D0077E329ACC59D002A3BB4 /* Cok Bolumlu TableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D0077E429ACC59D002A3BB4 /* Cok_Bolumlu_TableViewUITests.swift */,
+				5D0077E629ACC59D002A3BB4 /* Cok_Bolumlu_TableViewUITestsLaunchTests.swift */,
+			);
+			path = "Cok Bolumlu TableViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D0077BF29ACC59D002A3BB4 /* Cok Bolumlu TableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D0077EA29ACC59D002A3BB4 /* Build configuration list for PBXNativeTarget "Cok Bolumlu TableView" */;
+			buildPhases = (
+				5D0077BC29ACC59D002A3BB4 /* Sources */,
+				5D0077BD29ACC59D002A3BB4 /* Frameworks */,
+				5D0077BE29ACC59D002A3BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cok Bolumlu TableView";
+			productName = "Cok Bolumlu TableView";
+			productReference = 5D0077C029ACC59D002A3BB4 /* Cok Bolumlu TableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D0077D529ACC59D002A3BB4 /* Cok Bolumlu TableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D0077ED29ACC59D002A3BB4 /* Build configuration list for PBXNativeTarget "Cok Bolumlu TableViewTests" */;
+			buildPhases = (
+				5D0077D229ACC59D002A3BB4 /* Sources */,
+				5D0077D329ACC59D002A3BB4 /* Frameworks */,
+				5D0077D429ACC59D002A3BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D0077D829ACC59D002A3BB4 /* PBXTargetDependency */,
+			);
+			name = "Cok Bolumlu TableViewTests";
+			productName = "Cok Bolumlu TableViewTests";
+			productReference = 5D0077D629ACC59D002A3BB4 /* Cok Bolumlu TableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D0077DF29ACC59D002A3BB4 /* Cok Bolumlu TableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D0077F029ACC59D002A3BB4 /* Build configuration list for PBXNativeTarget "Cok Bolumlu TableViewUITests" */;
+			buildPhases = (
+				5D0077DC29ACC59D002A3BB4 /* Sources */,
+				5D0077DD29ACC59D002A3BB4 /* Frameworks */,
+				5D0077DE29ACC59D002A3BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D0077E229ACC59D002A3BB4 /* PBXTargetDependency */,
+			);
+			name = "Cok Bolumlu TableViewUITests";
+			productName = "Cok Bolumlu TableViewUITests";
+			productReference = 5D0077E029ACC59D002A3BB4 /* Cok Bolumlu TableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D0077B829ACC59D002A3BB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					5D0077BF29ACC59D002A3BB4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					5D0077D529ACC59D002A3BB4 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 5D0077BF29ACC59D002A3BB4;
+					};
+					5D0077DF29ACC59D002A3BB4 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 5D0077BF29ACC59D002A3BB4;
+					};
+				};
+			};
+			buildConfigurationList = 5D0077BB29ACC59D002A3BB4 /* Build configuration list for PBXProject "Cok Bolumlu TableView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D0077B729ACC59D002A3BB4;
+			productRefGroup = 5D0077C129ACC59D002A3BB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D0077BF29ACC59D002A3BB4 /* Cok Bolumlu TableView */,
+				5D0077D529ACC59D002A3BB4 /* Cok Bolumlu TableViewTests */,
+				5D0077DF29ACC59D002A3BB4 /* Cok Bolumlu TableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D0077BE29ACC59D002A3BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0077D029ACC59D002A3BB4 /* LaunchScreen.storyboard in Resources */,
+				5D0077CD29ACC59D002A3BB4 /* Assets.xcassets in Resources */,
+				5D0077CB29ACC59D002A3BB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0077D429ACC59D002A3BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0077DE29ACC59D002A3BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D0077BC29ACC59D002A3BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0077C829ACC59D002A3BB4 /* ViewController.swift in Sources */,
+				5D0077C429ACC59D002A3BB4 /* AppDelegate.swift in Sources */,
+				5D0077C629ACC59D002A3BB4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0077D229ACC59D002A3BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0077DB29ACC59D002A3BB4 /* Cok_Bolumlu_TableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0077DC29ACC59D002A3BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0077E529ACC59D002A3BB4 /* Cok_Bolumlu_TableViewUITests.swift in Sources */,
+				5D0077E729ACC59D002A3BB4 /* Cok_Bolumlu_TableViewUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D0077D829ACC59D002A3BB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D0077BF29ACC59D002A3BB4 /* Cok Bolumlu TableView */;
+			targetProxy = 5D0077D729ACC59D002A3BB4 /* PBXContainerItemProxy */;
+		};
+		5D0077E229ACC59D002A3BB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D0077BF29ACC59D002A3BB4 /* Cok Bolumlu TableView */;
+			targetProxy = 5D0077E129ACC59D002A3BB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D0077C929ACC59D002A3BB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D0077CA29ACC59D002A3BB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D0077CE29ACC59D002A3BB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D0077CF29ACC59D002A3BB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D0077E829ACC59D002A3BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D0077E929ACC59D002A3BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D0077EB29ACC59D002A3BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cok Bolumlu TableView/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Cok-Bolumlu-TableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D0077EC29ACC59D002A3BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cok Bolumlu TableView/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Cok-Bolumlu-TableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D0077EE29ACC59D002A3BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Cok-Bolumlu-TableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cok Bolumlu TableView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cok Bolumlu TableView";
+			};
+			name = Debug;
+		};
+		5D0077EF29ACC59D002A3BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Cok-Bolumlu-TableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cok Bolumlu TableView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cok Bolumlu TableView";
+			};
+			name = Release;
+		};
+		5D0077F129ACC59D002A3BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Cok-Bolumlu-TableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cok Bolumlu TableView";
+			};
+			name = Debug;
+		};
+		5D0077F229ACC59D002A3BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Cok-Bolumlu-TableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cok Bolumlu TableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D0077BB29ACC59D002A3BB4 /* Build configuration list for PBXProject "Cok Bolumlu TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0077E829ACC59D002A3BB4 /* Debug */,
+				5D0077E929ACC59D002A3BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D0077EA29ACC59D002A3BB4 /* Build configuration list for PBXNativeTarget "Cok Bolumlu TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0077EB29ACC59D002A3BB4 /* Debug */,
+				5D0077EC29ACC59D002A3BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D0077ED29ACC59D002A3BB4 /* Build configuration list for PBXNativeTarget "Cok Bolumlu TableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0077EE29ACC59D002A3BB4 /* Debug */,
+				5D0077EF29ACC59D002A3BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D0077F029ACC59D002A3BB4 /* Build configuration list for PBXNativeTarget "Cok Bolumlu TableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0077F129ACC59D002A3BB4 /* Debug */,
+				5D0077F229ACC59D002A3BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D0077B829ACC59D002A3BB4 /* Project object */;
+}
