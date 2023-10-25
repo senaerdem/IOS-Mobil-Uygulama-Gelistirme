@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9g8-xC-dD8">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Filmler-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Detayli_CollectionView_Uygulama" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="xrd-L8-itX">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Iw0-0y-UmD">
+                                    <size key="itemSize" width="177" height="319"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="filmHucre" id="WQw-Nh-sk0" customClass="FilmHucre" customModule="Detayli_CollectionView_Uygulama" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="140" height="319"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Qt5-fm-X27">
+                                            <rect key="frame" x="0.0" y="0.0" width="140" height="319"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="django" translatesAutoresizingMaskIntoConstraints="NO" id="mNH-sG-VyG">
+                                                    <rect key="frame" x="10" y="31.666666666666657" width="120" height="200"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="120" id="Aqa-qm-xi2"/>
+                                                        <constraint firstAttribute="height" constant="200" id="Qab-9X-hdj"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Django" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tux-h5-uQa">
+                                                    <rect key="frame" x="43" y="236.66666666666666" width="54" height="20.999999999999972"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" systemColor="systemIndigoColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="15.99 TL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjX-A6-iyk">
+                                                    <rect key="frame" x="40.333333333333329" y="262.66666666666669" width="59.333333333333329" height="18"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" systemColor="systemMintColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e9u-W1-48G">
+                                                    <rect key="frame" x="24.666666666666671" y="285.66666666666669" width="91" height="28.333333333333314"/>
+                                                    <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="28.329999999999998" id="7n7-aA-4IG"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="Sepete Ekle">
+                                                        <fontDescription key="titleFontDescription" type="system" pointSize="0.0"/>
+                                                        <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
+                                                    </buttonConfiguration>
+                                                    <connections>
+                                                        <action selector="sepeteEkleButton:" destination="WQw-Nh-sk0" eventType="touchUpInside" id="mZY-ms-ZuF"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="mNH-sG-VyG" secondAttribute="trailing" constant="10" id="A4p-0T-rj1"/>
+                                                <constraint firstItem="Tux-h5-uQa" firstAttribute="centerX" secondItem="Qt5-fm-X27" secondAttribute="centerX" id="Dxw-dL-czP"/>
+                                                <constraint firstItem="Tux-h5-uQa" firstAttribute="top" secondItem="mNH-sG-VyG" secondAttribute="bottom" constant="5" id="JAK-sO-hB6"/>
+                                                <constraint firstItem="e9u-W1-48G" firstAttribute="centerX" secondItem="Qt5-fm-X27" secondAttribute="centerX" id="L77-fM-hVK"/>
+                                                <constraint firstItem="qjX-A6-iyk" firstAttribute="top" secondItem="Tux-h5-uQa" secondAttribute="bottom" constant="5" id="Q1k-xJ-mO6"/>
+                                                <constraint firstItem="qjX-A6-iyk" firstAttribute="centerX" secondItem="Qt5-fm-X27" secondAttribute="centerX" id="Uaf-P3-gcM"/>
+                                                <constraint firstItem="mNH-sG-VyG" firstAttribute="top" secondItem="Qt5-fm-X27" secondAttribute="top" constant="3" id="VOL-m7-bwj"/>
+                                                <constraint firstItem="mNH-sG-VyG" firstAttribute="centerX" secondItem="Qt5-fm-X27" secondAttribute="centerX" id="gze-8L-YEA"/>
+                                                <constraint firstItem="e9u-W1-48G" firstAttribute="top" secondItem="qjX-A6-iyk" secondAttribute="bottom" constant="5" id="lXU-nT-mqt"/>
+                                                <constraint firstAttribute="bottom" secondItem="e9u-W1-48G" secondAttribute="bottom" constant="5" id="xWN-EV-i67"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="filmAdiLabel" destination="Tux-h5-uQa" id="xJ1-xG-H8S"/>
+                                            <outlet property="filmFiyatLabel" destination="qjX-A6-iyk" id="Is8-SU-5nE"/>
+                                            <outlet property="filmImageView" destination="mNH-sG-VyG" id="eaz-LW-7mM"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xrd-L8-itX" secondAttribute="bottom" id="4uz-Wb-TJW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xrd-L8-itX" secondAttribute="trailing" id="Dg6-EP-554"/>
+                            <constraint firstItem="xrd-L8-itX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="KDN-y8-IzA"/>
+                            <constraint firstItem="xrd-L8-itX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="z2v-2W-HqP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Filmler" id="flN-eo-cKC"/>
+                    <connections>
+                        <outlet property="filmCollectionView" destination="xrd-L8-itX" id="fzN-HI-KmR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="837.40458015267177" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="o6X-gp-tvo">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9g8-xC-dD8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="YKr-nM-7el">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="UZ6-VZ-rrV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WYx-Xz-d3c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-89.312977099236633" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="django" width="200" height="300"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
