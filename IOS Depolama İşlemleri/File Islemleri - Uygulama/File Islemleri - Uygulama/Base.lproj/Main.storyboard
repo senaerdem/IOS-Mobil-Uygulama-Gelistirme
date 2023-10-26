@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="File_Islemleri___Uygulama" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QKy-YN-ryz">
+                                <rect key="frame" x="40" y="80" width="313" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MBX-Gy-U6t">
+                                <rect key="frame" x="40" y="144" width="52" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Yaz"/>
+                                <connections>
+                                    <action selector="yaz:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mh2-L0-Z3k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8PA-xE-rxB">
+                                <rect key="frame" x="295" y="143" width="43" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Sil"/>
+                                <connections>
+                                    <action selector="sil:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x5P-Dw-fix"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IGS-FH-xla">
+                                <rect key="frame" x="169" y="144" width="55" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Oku"/>
+                                <connections>
+                                    <action selector="oku:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Sd-RR-sEc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iuM-kx-j3T">
+                                <rect key="frame" x="284" y="208" width="93" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Resim Sil"/>
+                                <connections>
+                                    <action selector="resimSil:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Yb-jD-tVT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHK-Ey-3Xy">
+                                <rect key="frame" x="150" y="207" width="126" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Resim Göster"/>
+                                <connections>
+                                    <action selector="resimGoster:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hzC-L4-cfP"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ggN-C9-Z2h">
+                                <rect key="frame" x="57" y="333" width="296" height="447"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="447" id="dio-9h-dO0"/>
+                                    <constraint firstAttribute="width" constant="296" id="xfy-Es-kqj"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2K-Uj-NEJ">
+                                <rect key="frame" x="2" y="206" width="128" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Resim Kaydet"/>
+                                <connections>
+                                    <action selector="resimKaydet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C9W-eQ-266"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ggN-C9-Z2h" secondAttribute="trailing" constant="40" id="1s5-AO-REn"/>
+                            <constraint firstItem="QKy-YN-ryz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="21" id="59Q-WC-Fuf"/>
+                            <constraint firstItem="8PA-xE-rxB" firstAttribute="leading" secondItem="IGS-FH-xla" secondAttribute="trailing" constant="71" id="5JN-BI-hjW"/>
+                            <constraint firstItem="ggN-C9-Z2h" firstAttribute="top" secondItem="iuM-kx-j3T" secondAttribute="bottom" constant="90" id="6bx-sJ-dC1"/>
+                            <constraint firstItem="ggN-C9-Z2h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="57" id="73C-JB-5OP"/>
+                            <constraint firstItem="iuM-kx-j3T" firstAttribute="leading" secondItem="ZHK-Ey-3Xy" secondAttribute="trailing" constant="8" symbolic="YES" id="7Ru-r7-18Q"/>
+                            <constraint firstItem="QKy-YN-ryz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="7bW-f4-r0I"/>
+                            <constraint firstItem="MBX-Gy-U6t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="Av4-VU-SRH"/>
+                            <constraint firstItem="8PA-xE-rxB" firstAttribute="top" secondItem="QKy-YN-ryz" secondAttribute="bottom" constant="29" id="Fur-p1-HDI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iuM-kx-j3T" secondAttribute="trailing" constant="16" id="I3w-JD-cyc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8PA-xE-rxB" secondAttribute="trailing" constant="55" id="Lxt-5e-vcv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QKy-YN-ryz" secondAttribute="trailing" constant="40" id="NfI-xT-qXy"/>
+                            <constraint firstItem="d2K-Uj-NEJ" firstAttribute="top" secondItem="MBX-Gy-U6t" secondAttribute="bottom" constant="27" id="Vdi-97-ExC"/>
+                            <constraint firstItem="d2K-Uj-NEJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="2" id="Z2h-Wo-YBa"/>
+                            <constraint firstItem="IGS-FH-xla" firstAttribute="leading" secondItem="MBX-Gy-U6t" secondAttribute="trailing" constant="77" id="dmX-Qu-C1D"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ggN-C9-Z2h" secondAttribute="bottom" constant="38" id="fUn-bH-4Hq"/>
+                            <constraint firstItem="IGS-FH-xla" firstAttribute="top" secondItem="QKy-YN-ryz" secondAttribute="bottom" constant="30" id="hYx-Za-n6R"/>
+                            <constraint firstItem="ZHK-Ey-3Xy" firstAttribute="top" secondItem="IGS-FH-xla" secondAttribute="bottom" constant="28" id="kvF-81-fBV"/>
+                            <constraint firstItem="MBX-Gy-U6t" firstAttribute="top" secondItem="QKy-YN-ryz" secondAttribute="bottom" constant="30" id="nLN-l8-r4N"/>
+                            <constraint firstItem="ZHK-Ey-3Xy" firstAttribute="leading" secondItem="d2K-Uj-NEJ" secondAttribute="trailing" constant="20" id="vjn-C7-VSI"/>
+                            <constraint firstItem="iuM-kx-j3T" firstAttribute="top" secondItem="8PA-xE-rxB" secondAttribute="bottom" constant="30" id="yRI-Hx-ukB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resimTutucu" destination="ggN-C9-Z2h" id="iU2-94-Js3"/>
+                        <outlet property="textfieldGirdi" destination="QKy-YN-ryz" id="XWS-Wk-voG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116.79389312977099" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
